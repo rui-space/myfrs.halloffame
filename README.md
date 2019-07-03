@@ -1,1 +1,0 @@
-# myfrs.halloffame

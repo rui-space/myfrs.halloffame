@@ -1,0 +1,15 @@
+*.o
+HallOfFame
+moc*
+Makefile
+.qmake.stash
+.vscode/
+HallOfFame.pro.user
+ui_*.h
+core
+
+
+build/*
+build_/*
+CMakeCache.txt
+*.cmake

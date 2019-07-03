@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmessageProto.a  CMakeFiles/messageProto.dir/Common.pb.cc.o
+/usr/bin/ranlib libmessageProto.a

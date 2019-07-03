@@ -1,0 +1,17 @@
+
+[Unit]
+Description=hall of fame client
+
+[Service]
+Restart=on-failure
+StartLimitInterval=10
+StartLimitBurst=5
+User=lynxapp
+Group=lynxapp
+ExecStart=/opt/lynx/halloffame/halloffame /opt/lynx/halloffame/
+ExecReload=/bin/kill -USR1 $MAINPID
+LimitNOFILE=1048576
+LimitNPROC=64
+
+[Install]
+WantedBy=multi-user.target

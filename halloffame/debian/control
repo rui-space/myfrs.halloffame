@@ -1,0 +1,8 @@
+Package:halloffame
+Version:1.0.0
+Section:utils
+Priority:extra
+Maintainer:liruigang
+Depends:libqt5widgets5(>=5.0),libqt5gui5(>=5.0),libqt5core5a(>=5.0),libqt5core5a(>=5.0),libqt5sql5(>=5.0),libqt5sql5-mysql(>=5.0),libqt5network5(>=5.0)
+Architecture:amd64
+Description:hall of fame 

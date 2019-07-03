@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Exit on error
+set -e
+
+case "$1" in 
+	remove|upgrade)
+		# stop the service
+#systemctl stop halloffame.service
+		# disable it from auto boot
+#		systemctl disable halloffame.service
+	;;
+esac
+
+exit 0

@@ -1,0 +1,13 @@
+{
+    "host" : "10.10.10.233",
+    "port" : "3306",
+    "user" : "root",
+    "password" : "123456",
+    "database" : "frsit",
+    "db_reconnect_interval" : "5",
+    "game_event_interval" : "1",
+    "game_over_wait_interval" : "2",
+    "history_refresh_interval" : "10",
+    "game_event_send_port" : "35605",
+    "game_event_receive_port" : "35606"
+}

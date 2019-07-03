@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=0.0.1
+Name=名人堂
+Comment=hall of fame
+Exec=/opt/lynx/halloffame/halloffame /opt/lynx/halloffame/ >/opt/lynx/halloffame/nohup.out 2>/opt/lynx/halloffame/nohup.out
+keywords=halloffame;hall;
+OnlyShowIn=GNOME;Unity;
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+#Categories=GNOME;GTK;Core;Documentation;Utility;
+Hidden=false
+Icon=/usr/share/pixmaps/jinyuan.png

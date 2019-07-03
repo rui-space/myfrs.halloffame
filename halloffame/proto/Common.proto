@@ -1,0 +1,21 @@
+//	Engine.proto
+//	Defines messages used between the orchestrator and the game engine.
+
+syntax = "proto3";
+
+package Common;
+
+message PlayerStats {
+	uint32 score = 1;
+	uint32 score_leader = 2;
+	uint32 score_follower = 3;
+	uint32 rank = 4;
+	float accuracy = 5; // normalized [0, 1]
+	uint32 collectible = 6;
+}
+
+message PlayerScore {
+	repeated PlayerStats values = 1;
+}
+
+
